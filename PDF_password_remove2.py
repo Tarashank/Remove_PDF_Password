@@ -26,14 +26,11 @@ def remove_password(input_pdf, output_pdf, password):
         print(f"The PDF '{input_pdf}' is not encrypted. No password to remove.")
 
 # Example usage with multiple PDF files
-input_directory = r'D:/Personal/Statement/Credit/'
-output_directory = r'D:/Personal/Statement/Credit/SBI/'
-#SBI
-password_to_remove = '041119971907' 
-#RBL
-# password_to_remove = 'TBAN041197'
-# Axix
-# password_to_remove = 'TARA0411'
+input_directory = r'D:/Personal/....'
+output_directory = r'D:/Personal/.....'
+
+password_to_remove = '0wdSDFG(N(##7' 
+
 # Get a list of all PDF files in the input directory
 pdf_files = [file for file in os.listdir(input_directory) if file.lower().endswith('.pdf')]
 
